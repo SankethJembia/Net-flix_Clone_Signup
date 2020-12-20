@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <Style>
+ h2,h3{
+     font-family: monospace;
+ }
+
+body{
+    background-color:  lightslategray;
+  
+}
+
+.Center{
+    
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.CenterBox{
+    
+    background-color:     snow;
+    height: 500px;
+    width: 450px;
+    box-shadow:black;
+   
+}
+.CenterBox form{
+    display: flex;
+    flex-direction: column;
+}
+
+.CenterBox form input[type="text"],.CenterBox form input[type="email"],.CenterBox form input[type="password"]{
+
+    font-size: 20px;
+    margin:8px 4px ;
+    border: none;
+    border-bottom: 1px solid peru ;
+}
+.CenterBox form input[type="button"] {
+    color: rgb(0, 0, 0);
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    font-weight:bolder ;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+   </Style>
+    <meta charset="UTF-8">
+    <title>Sign Up PAGE</title>
+</head>
+<body>
+    
+    <div class="Center">
+        <div class="CenterBox">
+                    
+       
+            <form>
+                <h2> Sign Up </h2>
+                <h3>Enter Your Detail's</h3>
+                <img src="Netflix-logo.png" title="Logo" style="width: 100px; height: 70px; margin-right: 10px; margin-left: 10px;">
+                      
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Confirm Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <input type="button" value="Sign up"> 
+           </form>
+        </div>
+    </div>
+    
+</body>
+</html>
